@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OMDBAssignment</string>
+    <string name="omdb">OMDB</string>
+    <string name="search_movie">Search Movie</string>
+</resources>

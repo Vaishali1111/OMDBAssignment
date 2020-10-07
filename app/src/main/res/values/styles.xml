@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/MontserratTextViewStyle</item>
+        <item name="android:editTextStyle">@style/MontserratEditTextViewStyle</item>
+        <item name="android:buttonStyle">@style/MontserratButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MontserratEditTextViewStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="MontserratTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="MontserratButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+</resources>
