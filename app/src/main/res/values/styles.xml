@@ -16,6 +16,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="ToolBarWithNavigationBack">
+        <item name="navigationIcon">@drawable/abc_ic_ab_back_material</item>
+    </style>
+
     <style name="MontserratEditTextViewStyle" parent="android:Widget.EditText">
         <item name="android:fontFamily">@font/montserrat_regular</item>
     </style>

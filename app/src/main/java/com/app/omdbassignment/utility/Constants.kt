@@ -1,8 +1,8 @@
 package com.app.omdbassignment.utility
 
-/*
-* Created by vvv916942 on 05,October,2020
-*/
-class Constants {
+
+object Constants {
+    const val BASE_URL: String = "http://www.omdbapi.com/"
+    const val API_KEY: String = "3cc4fbc3"
 
 }
