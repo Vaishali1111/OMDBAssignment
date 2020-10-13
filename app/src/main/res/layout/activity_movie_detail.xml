@@ -67,7 +67,9 @@
                     android:textSize="@dimen/_13ssp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toTopOf="@+id/txt_movie_duration_category"
-                    app:layout_constraintLeft_toLeftOf="parent" />
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@+id/img_movie_rating" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/txt_movie_duration_category"

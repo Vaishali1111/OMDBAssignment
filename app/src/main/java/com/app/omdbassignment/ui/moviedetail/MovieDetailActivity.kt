@@ -13,7 +13,6 @@ import com.app.omdbassignment.utility.ViewModelProviderFactory
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.activity_movie_detail.*
 import kotlinx.android.synthetic.main.content_movie_detail.*
-import kotlinx.android.synthetic.main.test1.img_movie
 
 
 class MovieDetailActivity : AppCompatActivity() {
@@ -64,7 +63,7 @@ class MovieDetailActivity : AppCompatActivity() {
         txt_released_date.text = "${movieDetailResponse.released}"
         txt_storyline.text = "${movieDetailResponse.plot}"
 
-        Glide.with(this).load(movieDetailResponse.poster).into(img_movie)
+        Glide.with(this).load(movieDetailResponse.poster).placeholder(R.drawable.material_flat).into(img_movie)
     }
 
 
